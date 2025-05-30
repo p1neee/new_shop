@@ -1,0 +1,49 @@
+.rounded {
+list-style: none;
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 15px;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #8FD4C1;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+body {
+  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+  font-size: 11pt; /* Размер основного шрифта в пунктах  */
+  background-color: #f0f0f0; /* Цвет фона веб-страницы */
+  color: #333; /* Цвет основного текста */
+}
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  padding:2px;
+}
+.menu2 {	width:160px;}
+.content {
+	width:560px;
+}
